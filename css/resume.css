@@ -1,0 +1,126 @@
+body {
+    font-family: 'Staatliches', cursive;
+    background: #eceff1; 
+}
+
+
+p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif !important;
+}
+
+
+
+.firstyear{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #eceff1;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -240px;
+
+
+}
+
+.header {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background: #eceff1;
+color: #ffebee;
+width: 100%;
+position: fixed;
+z-index: 500;
+background-image: url("../images/background.png");
+
+box-shadow: 0 1px 5px rgba(0,0,0,0.5), 0 3px 3px rgba(0,0,0,0.22);
+
+}
+
+
+
+.aboutme{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: url("../images/header.png");
+width: 100%;
+height: 700px;
+position: relative;
+background-size: cover;
+background-position: bottom;
+
+}
+
+.community {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px white;
+    width: 100%;
+    background-image: url(../images/header.png);
+    padding-left: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 650px;
+}
+
+.centi {
+    margin-right: 51%;
+    font-size: 20px;
+    
+}
+
+#cardone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px #eceff1;
+    width: 30% !important;
+    margin-left: 1%;
+    margin-top: 25%;
+
+}
+
+#card-content {
+    text-align: center !important;
+    align-content: center !important;
+
+}
+
+
+
+
+.logo{
+    width: 38px;
+    height: 36px;
+    margin-top: 40px;
+    }
+    
+    .logo:hover {
+    width: 80px;
+    height: 50px;
+    
+    }
+
+#cardone:hover {
+    box-shadow: 0 8px 10px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px black;
+    width: 100%;
+    background-color: #008294;
+    height: 100px;
+    color: white;
+
+}
